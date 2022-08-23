@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgb(60, 183, 183);
+}
+.container{
+    display: flex;
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.information{
+    background-color: rgb(7, 124, 187);
+    flex: 1;
+    padding: 40px;
+    color: white;
+}
+.form-register{
+    background-color: white;
+    flex: 1;
+    padding: 30px;
+    
+}
+.group-form{
+    display: flex;
+    padding: 10px;
+    
+}
+input{
+    padding: 10px;
+    margin: 5px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+button{
+    padding: 10px;
+    border-radius: 5px 0px 5px 0px;
+    border: none;
+}
+.register{
+    width: 30%;
+    background-color: blue;
+    color: white;
+}
+#color{
+    color:  rgb(7, 124, 187);
+}
